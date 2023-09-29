@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x] # Use the appropriate Node.js version
+        node-version: [18.x] # Use the appropriate Node.js version
 
     env:
       SERVER_DIR: 'http://43.204.231.175/3000/' # Set the server directory
